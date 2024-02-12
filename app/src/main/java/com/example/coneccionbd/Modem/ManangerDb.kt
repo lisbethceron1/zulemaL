@@ -26,7 +26,7 @@ data class ManangerDb(val context: Context) {
 
         openBdWr() // abrir bd en modo escritura
 
-        //creo contenedor de valores para insertar data
+        //creo contenedor de valores para insertar dataf
         val  contenedor =ContentValues()
         contenedor.put("cod",code)
         contenedor.put("nombre",ciudad)
